@@ -16,11 +16,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     
     @IBAction func greet(sender: AnyObject) {
+        let name = nameField.text
+        greetingLabel.text = "Hola \(name)"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        greetingLabel.text = "¿Quién eres?"
     }
 
     override func didReceiveMemoryWarning() {
