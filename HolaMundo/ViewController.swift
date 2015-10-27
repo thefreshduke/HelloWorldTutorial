@@ -11,6 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var greetingLabel: UILabel!
+    
+    @IBOutlet weak var nameField: UITextField!
+    
+    @IBAction func greet(sender: AnyObject) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
