@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     
     @IBAction func greet(sender: AnyObject) {
-        let name = nameField.text
+        let name = nameField.text!
         greetingLabel.text = "Hola \(name)"
     }
     
