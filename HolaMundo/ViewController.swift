@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBAction func greet(sender: AnyObject) {
         let name = nameField.text!
-        greetingLabel.text = "Hola \(name)"
+        greetingLabel.text = "¡Hola \(name)!"
     }
     
     override func viewDidLoad() {
